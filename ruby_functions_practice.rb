@@ -52,6 +52,14 @@ def number_to_short_month_name(numeric_month)
   return month
 end
 
-def volume_of_cube (volume)
+def volume_of_cube(volume)
   return volume ** 3
+end
+
+def volume_of_sphere(volume)
+  return (4/3.to_f) * Math::PI * volume ** 3
+end
+
+def fahrenheit_to_celsius (fahrenheit)
+  return (fahrenheit - 32) * (5/9.to_f)
 end
